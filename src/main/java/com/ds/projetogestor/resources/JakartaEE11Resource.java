@@ -1,4 +1,4 @@
-package com.dls.ecogestor.resources;
+package com.ds.projetogestor.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
