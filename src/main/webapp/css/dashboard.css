@@ -74,7 +74,7 @@ body{
     border-color: var(--primary-medium);
 }
 
-btn-pesquisar, 
+.btn-pesquisar, 
 .btn-pesquisa {
     margin-top: 10px;
     padding: 10px 20px;
@@ -116,3 +116,40 @@ btn-pesquisar,
 #tabelaEstoque tr:nth-child(even) {
     background-color: var(--gray-light);
 }
+
+#paginacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.controle-paginacao label {
+    font-size: 15px;
+    color: var(--primary-dark);
+}
+
+#pagina {
+    border: 1px solid var(--primary-medium);
+    border-radius: 5px;
+}
+
+.conteiner-btn
+#btnVoltar, 
+#btnProximo {
+    margin-top: 0px;
+    padding: 5px 10px;
+    background-color: var(--primary-medium);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.conteiner-btn
+#btnVoltar,
+#btnProximo:hover {
+    background-color: var(--primary-dark);
+}
+
